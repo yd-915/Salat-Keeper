@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Salat Keeper",
+    "slug": "First",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./skicon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "android": {
+        "useNextNotificationsApi": true
+      },
+      "updates": {
+        "fallbackToCacheTimeout": 0
+      },
+      "assetBundlePatterns": [
+        "**/*"
+      ],
+      "ios": {
+        "supportsTablet": true,
+        "bundleIdentifier": "io.expo.client"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.daher.sk"
+    }
+  }
+}
